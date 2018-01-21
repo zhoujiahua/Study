@@ -1,0 +1,41 @@
+@charset "utf-8";
+/*公共样式*/
+/*header*/
+.header{
+	width: 100%;
+	background-color: #333333;
+	position: fixed;
+	top: 0;
+}
+.logo{
+	
+}
+.logo h1{
+	font: 500 22px/49px "simsun";
+	color: #fff;
+}
+.top-menu,span,a{
+	font: 500 14px/49px "simsun";
+	color: #fff;
+	padding: 0 4px;
+}
+
+
+/*footer*/
+.footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #000000;
+}
+.foot{
+	color: #FFFFFF;
+	height: 100px;
+	text-align: center;
+}
+.foot p{
+	line-height: 100px;
+}
+.foot p span{
+	padding-right: 6px;
+}
