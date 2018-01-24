@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+		<title>Bootstrap -- </title>
+
+		<!-- Bootstrap CSS -->
+		<link href="http://work.zhoujiahua.cn/demo/Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="http://work.zhoujiahua.cn/demo/Bootstrap/css/font-awesome.min.css" rel="stylesheet">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+	      <script src="http://work.zhoujiahua.cn/demo/Bootstrap/js/html5shiv.min.js"></script>
+	      <script src="http://work.zhoujiahua.cn/demo/Bootstrap/js/respond.min.js"></script>
+	    <![endif]-->
+	</head>
+
+	<body>
+		<div class="container">
+			
+				<div class="alert alert-danger alert-dismissable">
+					<button type="button" class="close" data-dismiss="alert">&times;</button>
+					<strong>请收到货后，再确认收货！</strong> 否则您可能钱货两空 难道收不到货就不能点确认收货吗 ？
+				</div>
+				
+				<div id="myCon" class="alert alert-info alert-dismissable">
+					<button type="button" class="close" data-dismiss="alert">&times;</button>
+					<h3>温馨提示</h3>
+					<p>清保管好随身物品，丢失本店概不负责！</p>
+					<p>
+						<button type="button" class="btn btn-primary" data-dismiss="alert">好，我知道了</button>
+						<button type="button" class="btn btn-info">不，我不接受</button>
+					</p>
+				</div>
+				
+				<button id="myBtn" type="button" class="btn btn-primary">关闭警告框</button>
+				
+		</div>
+		
+		<!-- jQuery-->
+		<script src="http://work.zhoujiahua.cn/demo/Bootstrap/js/jquery-1.12.4.min.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="http://work.zhoujiahua.cn/demo/Bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				//动态关闭警告框
+				$("#myBtn").click(function(){
+					$("#myCon").alert("close");
+				});
+				
+				//事件检测
+				$("#myCon").on("close.bs.alert",function(){
+					alert("确认关闭");
+				});
+					
+				$("#myCon").on("closed.bs.alert",function(){
+					alert("确认关闭");
+				});
+			});
+		</script>
+	</body>
+
+</html>
