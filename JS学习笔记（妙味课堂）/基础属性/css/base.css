@@ -3,18 +3,27 @@
 html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
 fieldset, img,input,button { border:none; padding:0;margin:0;outline-style:none; }
 ul, ol ,li{ list-style:none; }
-input { padding-top:0; padding-bottom:0; font-family: "SimSun","宋体","microsoft yahei";}
+input { padding-top:0; padding-bottom:0; font-family: "SimSun","microsoft yahei";}
 select, input { vertical-align:middle;}
 select, input, textarea { font-size:13px; margin:0; }
 
 /*防止拖动*/
 textarea { resize:none; } 
-
+html,body{
+	height: 100%;
+}
+.wrapper{
+	position: relative;
+	min-height: 100%;
+}
+.mian{
+	padding-bottom: 100px;
+}
 /*去掉图片低测默认的3像素空白缝隙*/
 img {border:0;	vertical-align:middle; } 
 table { border-collapse:collapse; }
 body {
-    font:400 13px/150% Arial,Verdana,"microsoft yahei","\5b8b\4f53";
+    font:400 13px/150% Arial,Verdana,"\5b8b\4f53","microsoft yahei";
     color:#000;
     background-color:#fff;
 }

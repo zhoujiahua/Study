@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+/*公共CSS*/
+
+/*header*/
+.head{
+	background-color: #262626;
+}
+.head-c h1 {
+	color: #fff;
+	font: 600 16px/50px "";
+}
+
+/*footer*/
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.foot {
+	background-color: #262626;
+}
+
+.foot-c {
+	font: 500 14px/90px "";
+	color: #fff;
+}
+
+.foot-c a {
+	color: #fff;
+}
