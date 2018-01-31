@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Document</title>
+	
+	<!--CSS文件-->
+	<link rel="stylesheet" type="text/css" href="css/base.css"/>
+	<link rel="stylesheet" type="text/css" href="css/common.css"/>
+	<link rel="stylesheet" type="text/css" href="css/Test.css"/>
+	
+	<style type="text/css">
+		.ip{ 
+			padding: 50px 0 0;
+		}
+		.ip input{
+			outline: 1px solid blue;
+			width: 500px;
+			font: 500 15px/30px "";
+			padding-left: 15px;
+		}
+		.ip .active{
+			outline: 1px solid red;
+		}
+		.btn{
+			background-color: #0088CC;
+			color: #fff;
+			padding: 0 20px;
+			font: 500 15px/30px "";
+			cursor: pointer;
+		}
+	</style>
+
+</head>
+<body>
+	
+	<div class="wrapper">
+		<!--header-->
+		<div class="header"></div>
+		
+		<!--main-->
+		<div class="mian">
+			<div class="ip w">
+				<input type="text" name="ipu" id="ipu" value="" placeholder="请输入检索内容" />
+				<button type="button" id="btn" class="btn">提交</button>
+			</div>
+		</div>
+		
+		<!--footer-->
+		<div class="footer"></div>
+	</div>
+	
+	<!--JS文件-->
+	<script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/Test.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$("#ipu").focus(function(){
+				$(this).addClass("active");
+			});
+			$("#ipu").blur(function(){
+				$(this).removeClass("active");
+			});
+		});
+	
+	</script>
+</body>
+</html>
