@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Document</title>
+		<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$("#b01").click(function() {
+					var url = "https://api.douban.com/v2/book/isbn/" + $("#input_isbn").val()
+					var img_url = ""
+					$.ajax({
+						url: url,
+						type: 'GET',
+						dataType: 'JSONP', //here
+						success: function(data) {
+							console.log(data);
+							$("#title").val(data.title);
+							$("#author").val(data.author[0]);
+							$("#publisher").val(data.publisher);
+							$("#pages").val(data.pages);
+							$("#binding").val(data.binding);
+							$("#summary").val(data.summary);
+							$("#pubdate").val(data.pubdate);
+							$("#image").attr("src", data.images.medium);
+							console.log(data.images.medium);
+						}
+					});
+
+				});
+			});
+		</script>
+	</head>
+
+	<body>
+		输入isbn:<input type="text" id="input_isbn" value=""><br/>
+		<button id="b01" type="button">get book</button><br/> 书名：
+		<input type="text" id="title"><br/> 作者：
+		<input type="text" id="author"><br/> 出版社：
+		<input type="text" id="publisher"><br/> 出版日期：
+		<input type="text" id="pubdate"><br/> 页面：
+		<input type="text" id="pages"><br/> 封皮：
+		<input type="text" id="binding"><br/> 简介：
+		<textarea id="summary" rows="10" cols="30"></textarea><br/> 封面：
+		<div id="images"><img id="image" src=""></div>
+
+	</body>
+
+</html>

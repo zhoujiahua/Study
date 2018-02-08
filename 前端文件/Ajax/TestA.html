@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Document</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.w{
+			width: 1200;
+			margin: 0 auto;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+	
+</head>
+<body>
+	
+	<div class="odiv">
+		<div class="w odivc">
+			<h1 id="js_title">
+				
+			</h1>
+			
+		</div>
+	</div>
+	
+	<!--js-->
+	<script type="text/javascript">
+		$(function(){
+			getA();
+			function getA(){
+				var url = "https://api.douban.com/v2/book/1220562";
+				var img_url = "";
+				$.ajax({
+					url:url,
+					type:'GET',
+					dataType:'JSONP',
+					success:function(data){
+						console.log(data);
+						$("#js_title").html(data.summary);
+					}
+				});
+			}
+		});
+	</script>
+</body>
+</html>
