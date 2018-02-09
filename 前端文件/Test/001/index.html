@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Document</title>
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+		<style type="text/css">
+			.swiper-container { width: 1200px; height: 600px; }
+			.lb-pic{
+				width: 100%;
+				/*height: 600px;*/
+				height: 100%;
+			}
+		</style>
+
+	</head>
+
+	<body>
+
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><img class="lb-pic" src="img/wn-sgs2.jpg"/></div>
+				<div class="swiper-slide"><img class="lb-pic" src="img/wn-txzlc1.jpg"/></div>
+				<div class="swiper-slide"><img class="lb-pic" src="img/wn-txzllj1.jpg"/></div>
+			</div>
+			<!-- 如果需要分页器 -->
+			<div class="swiper-pagination"></div>
+
+			<!-- 如果需要导航按钮 -->
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-button-next"></div>
+
+			<!-- 如果需要滚动条 -->
+			<!--<div class="swiper-scrollbar"></div>-->
+		</div>
+		<button id="btn1">1</button>
+		<button id="btn2">2</button>
+		<!--<div id="btn1">1</div>
+		<div id="btn2">2</div>-->
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="js/swiper.jquery.min.js"></script>
+		<script type="text/javascript" src="js/swiper.min.js"></script>
+		<script>
+			var mySwiper = new Swiper('.swiper-container', {
+				direction: 'vertical',
+//				direction: 'horizontal',
+
+				autoplay: 3000,
+//				speed:300,
+				loop: true,
+//				initialSlide :1,
+				paginationClickable :true,
+				
+				mousewheelControl : true,
+		
+				// 如果需要分页器
+				pagination: '.swiper-pagination',
+		
+				// 如果需要前进后退按钮
+				nextButton: '.swiper-button-next',
+				prevButton: '.swiper-button-prev',
+		
+				// 如果需要滚动条
+//				scrollbar: '.swiper-scrollbar',
+			})
+
+//			$('#btn1').click(function() {
+//				mySwiper.slidePrev();
+//			})
+//			$('#btn2').click(function() {
+//				mySwiper.slideNext();
+//			})
+		</script>
+	</body>
+
+</html>

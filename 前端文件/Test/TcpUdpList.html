@@ -1,0 +1,1573 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=`, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>-->
+	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.header-c{
+			background-color: #2a2a2a;
+			color: #fff;
+		}
+		.copyrith{
+			height: 60px;
+			background-color: #2a2a2a;
+		}
+		.copyrith p{
+			color: #fff;
+			font: 400 15px/60px "microsoft yahei";
+		}
+		tbody tr th{
+			text-align: center;
+		}
+	</style>
+	<title>常见TCP/UDP端口对照表</title>
+	<!--<script type="text/javascript" src="js/jquery.min.js"></script>-->
+	<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+	<!--<script type="text/javascript" src="js/bootstrap.min.js"></script>-->
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+</head>
+	<body>
+		<div class="wapr">
+			<!--header-->
+			<div class="header">
+				<div class="header-c">
+					<div class="header-top container">
+						<h1>常见TCP/UDP端口对照表</h1>
+					</div>
+				</div>
+			</div>
+			
+			<!--main-->
+			<div class="main">
+				<div class="container text-center">
+					<div>
+						<h2>著名端口</h2>
+						<table border="0" cellpadding="2" cellspacing="1" bgcolor="#E1E1E1" width="100%">
+							<tr>
+								<th height="28" bgcolor="#E9F8E7">端口号码 / 层</th>
+								<th height="28" bgcolor="#F4FBF3">名称</th>
+								<th height="28" bgcolor="#E9F8E7">注释</th>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">1 </td>
+								<td height="28" bgcolor="#F4FBF3">tcpmux </td>
+								<td height="28" bgcolor="#E9F8E7">TCP 端口服务多路复用 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">5 </td>
+								<td height="28" bgcolor="#F4FBF3">rje </td>
+								<td height="28" bgcolor="#E9F8E7">远程作业入口 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">7 </td>
+								<td height="28" bgcolor="#F4FBF3">echo </td>
+								<td height="28" bgcolor="#E9F8E7">Echo 服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">9 </td>
+								<td height="28" bgcolor="#F4FBF3">discard </td>
+								<td height="28" bgcolor="#E9F8E7">用于连接测试的空服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">11 </td>
+								<td height="28" bgcolor="#F4FBF3">systat </td>
+								<td height="28" bgcolor="#E9F8E7">用于列举连接了的端口的系统状态 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">13 </td>
+								<td height="28" bgcolor="#F4FBF3">daytime </td>
+								<td height="28" bgcolor="#E9F8E7">给请求主机发送日期和时间 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">17 </td>
+								<td height="28" bgcolor="#F4FBF3">qotd </td>
+								<td height="28" bgcolor="#E9F8E7">给连接了的主机发送每日格言 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">18 </td>
+								<td height="28" bgcolor="#F4FBF3">msp </td>
+								<td height="28" bgcolor="#E9F8E7">消息发送协议 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">19 </td>
+								<td height="28" bgcolor="#F4FBF3">chargen </td>
+								<td height="28" bgcolor="#E9F8E7">字符生成服务；发送无止境的字符流 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">20 </td>
+								<td height="28" bgcolor="#F4FBF3">ftp-data </td>
+								<td height="28" bgcolor="#E9F8E7">FTP 数据端口 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">21 </td>
+								<td height="28" bgcolor="#F4FBF3">ftp </td>
+								<td height="28" bgcolor="#E9F8E7">文件传输协议（FTP）端口；有时被文件服务协议（FSP）使用 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">22 </td>
+								<td height="28" bgcolor="#F4FBF3">ssh </td>
+								<td height="28" bgcolor="#E9F8E7">安全 Shell（SSH）服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">23 </td>
+								<td height="28" bgcolor="#F4FBF3">telnet </td>
+								<td height="28" bgcolor="#E9F8E7">Telnet 服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">25 </td>
+								<td height="28" bgcolor="#F4FBF3">smtp </td>
+								<td height="28" bgcolor="#E9F8E7">简单邮件传输协议（SMTP） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">37 </td>
+								<td height="28" bgcolor="#F4FBF3">time </td>
+								<td height="28" bgcolor="#E9F8E7">时间协议 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">39 </td>
+								<td height="28" bgcolor="#F4FBF3">rlp </td>
+								<td height="28" bgcolor="#E9F8E7">资源定位协议 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">42 </td>
+								<td height="28" bgcolor="#F4FBF3">nameserver </td>
+								<td height="28" bgcolor="#E9F8E7">互联网名称服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">43 </td>
+								<td height="28" bgcolor="#F4FBF3">nicname </td>
+								<td height="28" bgcolor="#E9F8E7">WHOIS 目录服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">49 </td>
+								<td height="28" bgcolor="#F4FBF3">tacacs </td>
+								<td height="28" bgcolor="#E9F8E7">用于基于 TCP/IP 验证和访问的终端访问控制器访问控制系统 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">50 </td>
+								<td height="28" bgcolor="#F4FBF3">re-mail-ck </td>
+								<td height="28" bgcolor="#E9F8E7">远程邮件检查协议 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">53 </td>
+								<td height="28" bgcolor="#F4FBF3">domain </td>
+								<td height="28" bgcolor="#E9F8E7">域名服务（如 BIND） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">63 </td>
+								<td height="28" bgcolor="#F4FBF3">whois++ </td>
+								<td height="28" bgcolor="#E9F8E7">WHOIS++，被扩展了的 WHOIS 服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">67 </td>
+								<td height="28" bgcolor="#F4FBF3">bootps </td>
+								<td height="28" bgcolor="#E9F8E7">引导协议（BOOTP）服务；还被动态主机配置协议（DHCP）服务使用 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">68 </td>
+								<td height="28" bgcolor="#F4FBF3">bootpc </td>
+								<td height="28" bgcolor="#E9F8E7">Bootstrap（BOOTP）客户；还被动态主机配置协议（DHCP）客户使用 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">69 </td>
+								<td height="28" bgcolor="#F4FBF3">tftp </td>
+								<td height="28" bgcolor="#E9F8E7">小文件传输协议（TFTP） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">70 </td>
+								<td height="28" bgcolor="#F4FBF3">gopher </td>
+								<td height="28" bgcolor="#E9F8E7">Gopher 互联网文档搜寻和检索 </td>
+							</tr>
+							<tr>
+								<td colspan="3" align="center">
+									<!--中间广告位-->
+									<div align="center">
+										<script language="JavaScript">
+											DynamicShowAd("950_X");
+										</script>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">71 </td>
+								<td height="28" bgcolor="#F4FBF3">netrjs-1 </td>
+								<td height="28" bgcolor="#E9F8E7">远程作业服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">72 </td>
+								<td height="28" bgcolor="#F4FBF3">netrjs-2 </td>
+								<td height="28" bgcolor="#E9F8E7">远程作业服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">73 </td>
+								<td height="28" bgcolor="#F4FBF3">netrjs-3 </td>
+								<td height="28" bgcolor="#E9F8E7">远程作业服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">73 </td>
+								<td height="28" bgcolor="#F4FBF3">netrjs-4 </td>
+								<td height="28" bgcolor="#E9F8E7">远程作业服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">79 </td>
+								<td height="28" bgcolor="#F4FBF3">finger </td>
+								<td height="28" bgcolor="#E9F8E7">用于用户联系信息的 Finger 服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">80 </td>
+								<td height="28" bgcolor="#F4FBF3">http </td>
+								<td height="28" bgcolor="#E9F8E7">用于万维网（WWW）服务的超文本传输协议（HTTP） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">88 </td>
+								<td height="28" bgcolor="#F4FBF3">kerberos </td>
+								<td height="28" bgcolor="#E9F8E7">Kerberos 网络验证系统 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">95 </td>
+								<td height="28" bgcolor="#F4FBF3">supdup </td>
+								<td height="28" bgcolor="#E9F8E7">Telnet 协议扩展 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">101 </td>
+								<td height="28" bgcolor="#F4FBF3">hostname </td>
+								<td height="28" bgcolor="#E9F8E7">SRI-NIC 机器上的主机名服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">102 </td>
+								<td height="28" bgcolor="#F4FBF3">iso-tsap </td>
+								<td height="28" bgcolor="#E9F8E7">ISO 开发环境（ISODE）网络应用 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">105 </td>
+								<td height="28" bgcolor="#F4FBF3">csnet-ns </td>
+								<td height="28" bgcolor="#E9F8E7">邮箱名称服务器；也被 CSO 名称服务器使用 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">107 </td>
+								<td height="28" bgcolor="#F4FBF3">rtelnet </td>
+								<td height="28" bgcolor="#E9F8E7">远程 Telnet </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">109 </td>
+								<td height="28" bgcolor="#F4FBF3">pop2 </td>
+								<td height="28" bgcolor="#E9F8E7">邮局协议版本2 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">110 </td>
+								<td height="28" bgcolor="#F4FBF3">pop3 </td>
+								<td height="28" bgcolor="#E9F8E7">邮局协议版本3 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">111 </td>
+								<td height="28" bgcolor="#F4FBF3">sunrpc </td>
+								<td height="28" bgcolor="#E9F8E7">用于远程命令执行的远程过程调用（RPC）协议，被网络文件系统（NFS）使用 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">113 </td>
+								<td height="28" bgcolor="#F4FBF3">auth </td>
+								<td height="28" bgcolor="#E9F8E7">验证和身份识别协议 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">115 </td>
+								<td height="28" bgcolor="#F4FBF3">sftp </td>
+								<td height="28" bgcolor="#E9F8E7">安全文件传输协议（SFTP）服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">117 </td>
+								<td height="28" bgcolor="#F4FBF3">uucp-path </td>
+								<td height="28" bgcolor="#E9F8E7">Unix 到 Unix 复制协议（UUCP）路径服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">119 </td>
+								<td height="28" bgcolor="#F4FBF3">nntp </td>
+								<td height="28" bgcolor="#E9F8E7">用于 USENET 讨论系统的网络新闻传输协议（NNTP） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">123 </td>
+								<td height="28" bgcolor="#F4FBF3">ntp </td>
+								<td height="28" bgcolor="#E9F8E7">网络时间协议（NTP） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">137 </td>
+								<td height="28" bgcolor="#F4FBF3">netbios-ns </td>
+								<td height="28" bgcolor="#E9F8E7">在红帽企业 Linux 中被 Samba 使用的 NETBIOS 名称服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">138 </td>
+								<td height="28" bgcolor="#F4FBF3">netbios-dgm </td>
+								<td height="28" bgcolor="#E9F8E7">在红帽企业 Linux 中被 Samba 使用的 NETBIOS 数据报服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">139 </td>
+								<td height="28" bgcolor="#F4FBF3">netbios-ssn </td>
+								<td height="28" bgcolor="#E9F8E7">在红帽企业 Linux 中被 Samba 使用的NET BIOS 会话服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">143 </td>
+								<td height="28" bgcolor="#F4FBF3">imap </td>
+								<td height="28" bgcolor="#E9F8E7">互联网消息存取协议（IMAP） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">161 </td>
+								<td height="28" bgcolor="#F4FBF3">snmp </td>
+								<td height="28" bgcolor="#E9F8E7">简单网络管理协议（SNMP） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">162 </td>
+								<td height="28" bgcolor="#F4FBF3">snmptrap </td>
+								<td height="28" bgcolor="#E9F8E7">SNMP 的陷阱 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">163 </td>
+								<td height="28" bgcolor="#F4FBF3">cmip-man </td>
+								<td height="28" bgcolor="#E9F8E7">通用管理信息协议（CMIP） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">164 </td>
+								<td height="28" bgcolor="#F4FBF3">cmip-agent </td>
+								<td height="28" bgcolor="#E9F8E7">通用管理信息协议（CMIP） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">174 </td>
+								<td height="28" bgcolor="#F4FBF3">mailq </td>
+								<td height="28" bgcolor="#E9F8E7">MAILQ </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">177 </td>
+								<td height="28" bgcolor="#F4FBF3">xdmcp </td>
+								<td height="28" bgcolor="#E9F8E7">X 显示管理器控制协议 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">178 </td>
+								<td height="28" bgcolor="#F4FBF3">nextstep </td>
+								<td height="28" bgcolor="#E9F8E7">NeXTStep 窗口服务器 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">179 </td>
+								<td height="28" bgcolor="#F4FBF3">bgp </td>
+								<td height="28" bgcolor="#E9F8E7">边界网络协议 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">191 </td>
+								<td height="28" bgcolor="#F4FBF3">prospero </td>
+								<td height="28" bgcolor="#E9F8E7">Cliffod Neuman 的 Prospero 服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">194 </td>
+								<td height="28" bgcolor="#F4FBF3">irc </td>
+								<td height="28" bgcolor="#E9F8E7">互联网中继聊天（IRC） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">199 </td>
+								<td height="28" bgcolor="#F4FBF3">smux </td>
+								<td height="28" bgcolor="#E9F8E7">SNMP UNIX 多路复用 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">201 </td>
+								<td height="28" bgcolor="#F4FBF3">at-rtmp </td>
+								<td height="28" bgcolor="#E9F8E7">AppleTalk 选路 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">202 </td>
+								<td height="28" bgcolor="#F4FBF3">at-nbp </td>
+								<td height="28" bgcolor="#E9F8E7">AppleTalk 名称绑定 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">204 </td>
+								<td height="28" bgcolor="#F4FBF3">at-echo </td>
+								<td height="28" bgcolor="#E9F8E7">AppleTalk echo 服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">206 </td>
+								<td height="28" bgcolor="#F4FBF3">at-zis </td>
+								<td height="28" bgcolor="#E9F8E7">AppleTalk 区块信息 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">209 </td>
+								<td height="28" bgcolor="#F4FBF3">qmtp </td>
+								<td height="28" bgcolor="#E9F8E7">快速邮件传输协议（QMTP） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">210 </td>
+								<td height="28" bgcolor="#F4FBF3">z39.50 </td>
+								<td height="28" bgcolor="#E9F8E7">NISO Z39.50 数据库 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">213 </td>
+								<td height="28" bgcolor="#F4FBF3">ipx </td>
+								<td height="28" bgcolor="#E9F8E7">互联网络分组交换协议（IPX），被 Novell Netware 环境常用的数据报协议 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">220 </td>
+								<td height="28" bgcolor="#F4FBF3">imap3 </td>
+								<td height="28" bgcolor="#E9F8E7">互联网消息存取协议版本3 </td>
+							</tr>
+							<tr>
+								<td colspan="3" align="center">
+									<!--中间广告位-->
+									<div align="center">
+										<script language="JavaScript">
+											DynamicShowAd("950_X");
+										</script>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">245 </td>
+								<td height="28" bgcolor="#F4FBF3">link </td>
+								<td height="28" bgcolor="#E9F8E7">LINK </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">347 </td>
+								<td height="28" bgcolor="#F4FBF3">fatserv </td>
+								<td height="28" bgcolor="#E9F8E7">Fatmen 服务器 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">363 </td>
+								<td height="28" bgcolor="#F4FBF3">rsvp_tunnel </td>
+								<td height="28" bgcolor="#E9F8E7">RSVP 隧道 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">369 </td>
+								<td height="28" bgcolor="#F4FBF3">rpc2portmap </td>
+								<td height="28" bgcolor="#E9F8E7">Coda 文件系统端口映射器 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">370 </td>
+								<td height="28" bgcolor="#F4FBF3">codaauth2 </td>
+								<td height="28" bgcolor="#E9F8E7">Coda 文件系统验证服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">372 </td>
+								<td height="28" bgcolor="#F4FBF3">ulistproc </td>
+								<td height="28" bgcolor="#E9F8E7">UNIX Listserv </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">389 </td>
+								<td height="28" bgcolor="#F4FBF3">ldap </td>
+								<td height="28" bgcolor="#E9F8E7">轻型目录存取协议（LDAP） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">427 </td>
+								<td height="28" bgcolor="#F4FBF3">svrloc </td>
+								<td height="28" bgcolor="#E9F8E7">服务位置协议（SLP） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">434 </td>
+								<td height="28" bgcolor="#F4FBF3">mobileip-agent </td>
+								<td height="28" bgcolor="#E9F8E7">可移互联网协议（IP）代理 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">435 </td>
+								<td height="28" bgcolor="#F4FBF3">mobilip-mn </td>
+								<td height="28" bgcolor="#E9F8E7">可移互联网协议（IP）管理器 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">443 </td>
+								<td height="28" bgcolor="#F4FBF3">https </td>
+								<td height="28" bgcolor="#E9F8E7">安全超文本传输协议（HTTP） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">444 </td>
+								<td height="28" bgcolor="#F4FBF3">snpp </td>
+								<td height="28" bgcolor="#E9F8E7">小型网络分页协议 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">445 </td>
+								<td height="28" bgcolor="#F4FBF3">microsoft-ds </td>
+								<td height="28" bgcolor="#E9F8E7">通过 TCP/IP 的服务器消息块（SMB） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">464 </td>
+								<td height="28" bgcolor="#F4FBF3">kpasswd </td>
+								<td height="28" bgcolor="#E9F8E7">Kerberos 口令和钥匙改换服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">468 </td>
+								<td height="28" bgcolor="#F4FBF3">photuris </td>
+								<td height="28" bgcolor="#E9F8E7">Photuris 会话钥匙管理协议 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">487 </td>
+								<td height="28" bgcolor="#F4FBF3">saft </td>
+								<td height="28" bgcolor="#E9F8E7">简单不对称文件传输（SAFT）协议 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">488 </td>
+								<td height="28" bgcolor="#F4FBF3">gss-http </td>
+								<td height="28" bgcolor="#E9F8E7">用于 HTTP 的通用安全服务（GSS） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">496 </td>
+								<td height="28" bgcolor="#F4FBF3">pim-rp-disc </td>
+								<td height="28" bgcolor="#E9F8E7">用于协议独立的多址传播（PIM）服务的会合点发现（RP-DISC） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">500 </td>
+								<td height="28" bgcolor="#F4FBF3">isakmp </td>
+								<td height="28" bgcolor="#E9F8E7">互联网安全关联和钥匙管理协议（ISAKMP） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">535 </td>
+								<td height="28" bgcolor="#F4FBF3">iiop </td>
+								<td height="28" bgcolor="#E9F8E7">互联网内部对象请求代理协议（IIOP） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">538 </td>
+								<td height="28" bgcolor="#F4FBF3">gdomap </td>
+								<td height="28" bgcolor="#E9F8E7">GNUstep 分布式对象映射器（GDOMAP） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">546 </td>
+								<td height="28" bgcolor="#F4FBF3">dhcpv6-client </td>
+								<td height="28" bgcolor="#E9F8E7">动态主机配置协议（DHCP）版本6客户 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">547 </td>
+								<td height="28" bgcolor="#F4FBF3">dhcpv6-server </td>
+								<td height="28" bgcolor="#E9F8E7">动态主机配置协议（DHCP）版本6服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">554 </td>
+								<td height="28" bgcolor="#F4FBF3">rtsp </td>
+								<td height="28" bgcolor="#E9F8E7">实时流播协议（RTSP） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">563 </td>
+								<td height="28" bgcolor="#F4FBF3">nntps </td>
+								<td height="28" bgcolor="#E9F8E7">通过安全套接字层的网络新闻传输协议（NNTPS） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">565 </td>
+								<td height="28" bgcolor="#F4FBF3">whoami </td>
+								<td height="28" bgcolor="#E9F8E7">whoami </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">587 </td>
+								<td height="28" bgcolor="#F4FBF3">submission </td>
+								<td height="28" bgcolor="#E9F8E7">邮件消息提交代理（MSA） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">610 </td>
+								<td height="28" bgcolor="#F4FBF3">npmp-local </td>
+								<td height="28" bgcolor="#E9F8E7">网络外设管理协议（NPMP）本地 / 分布式排队系统（DQS） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">611 </td>
+								<td height="28" bgcolor="#F4FBF3">npmp-gui </td>
+								<td height="28" bgcolor="#E9F8E7">网络外设管理协议（NPMP）GUI / 分布式排队系统（DQS） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">612 </td>
+								<td height="28" bgcolor="#F4FBF3">hmmp-ind </td>
+								<td height="28" bgcolor="#E9F8E7">HMMP 指示 / DQS </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">631 </td>
+								<td height="28" bgcolor="#F4FBF3">ipp </td>
+								<td height="28" bgcolor="#E9F8E7">互联网打印协议（IPP） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">636 </td>
+								<td height="28" bgcolor="#F4FBF3">ldaps </td>
+								<td height="28" bgcolor="#E9F8E7">通过安全套接字层的轻型目录访问协议（LDAPS） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">674 </td>
+								<td height="28" bgcolor="#F4FBF3">acap </td>
+								<td height="28" bgcolor="#E9F8E7">应用程序配置存取协议（ACAP） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">694 </td>
+								<td height="28" bgcolor="#F4FBF3">ha-cluster </td>
+								<td height="28" bgcolor="#E9F8E7">用于带有高可用性的群集的心跳服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">749 </td>
+								<td height="28" bgcolor="#F4FBF3">kerberos-adm </td>
+								<td height="28" bgcolor="#E9F8E7">Kerberos 版本5（v5）的“kadmin”数据库管理 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">750 </td>
+								<td height="28" bgcolor="#F4FBF3">kerberos-iv </td>
+								<td height="28" bgcolor="#E9F8E7">Kerberos 版本4（v4）服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">765 </td>
+								<td height="28" bgcolor="#F4FBF3">webster </td>
+								<td height="28" bgcolor="#E9F8E7">网络词典 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">767 </td>
+								<td height="28" bgcolor="#F4FBF3">phonebook </td>
+								<td height="28" bgcolor="#E9F8E7">网络电话簿 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">873 </td>
+								<td height="28" bgcolor="#F4FBF3">rsync </td>
+								<td height="28" bgcolor="#E9F8E7">rsync 文件传输服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">992 </td>
+								<td height="28" bgcolor="#F4FBF3">telnets </td>
+								<td height="28" bgcolor="#E9F8E7">通过安全套接字层的 Telnet（TelnetS） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">993 </td>
+								<td height="28" bgcolor="#F4FBF3">imaps </td>
+								<td height="28" bgcolor="#E9F8E7">通过安全套接字层的互联网消息存取协议（IMAPS） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">994 </td>
+								<td height="28" bgcolor="#F4FBF3">ircs </td>
+								<td height="28" bgcolor="#E9F8E7">通过安全套接字层的互联网中继聊天（IRCS） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">995 </td>
+								<td height="28" bgcolor="#F4FBF3">pop3s </td>
+								<td height="28" bgcolor="#E9F8E7">通过安全套接字层的邮局协议版本3（POPS3） </td>
+							</tr>
+						</table>
+					</div>
+					<a name="unix_"></a>
+		
+					<!--中间广告位-->
+					<div align="center">
+						<script language="JavaScript">
+							DynamicShowAd("950_X");
+						</script>
+					</div>
+					
+					<div class="w960 whitebody center">
+						<h2>UNIX 特有的端口</h2>
+						<p>以下端口是 UNIX 特有的，涉及了从电子邮件到验证不等的服务。在方括号内的名称（如 [service]）是服务的守护进程名称或它的常用别名。</p>
+						<table border="0" cellpadding="2" cellspacing="1" bgcolor="#E1E1E1" width="100%">
+							<tr>
+								<th height="28" bgcolor="#E9F8E7">端口号码 / 层</th>
+								<th height="28" bgcolor="#F4FBF3">名称</th>
+								<th height="28" bgcolor="#E9F8E7">注释</th>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">512/tcp </td>
+								<td height="28" bgcolor="#F4FBF3">exec </td>
+								<td height="28" bgcolor="#E9F8E7">用于对远程执行的进程进行验证 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">512/udp </td>
+								<td height="28" bgcolor="#F4FBF3">biff [comsat] </td>
+								<td height="28" bgcolor="#E9F8E7">异步邮件客户（biff）和服务（comsat） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">513/tcp </td>
+								<td height="28" bgcolor="#F4FBF3">login </td>
+								<td height="28" bgcolor="#E9F8E7">远程登录（rlogin） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">513/udp </td>
+								<td height="28" bgcolor="#F4FBF3">who [whod] </td>
+								<td height="28" bgcolor="#E9F8E7">登录的用户列表 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">514/tcp </td>
+								<td height="28" bgcolor="#F4FBF3">shell [cmd] </td>
+								<td height="28" bgcolor="#E9F8E7">不必登录的远程 shell（rshell）和远程复制（rcp） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">514/udp </td>
+								<td height="28" bgcolor="#F4FBF3">syslog </td>
+								<td height="28" bgcolor="#E9F8E7">UNIX 系统日志服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">515 </td>
+								<td height="28" bgcolor="#F4FBF3">printer [spooler] </td>
+								<td height="28" bgcolor="#E9F8E7">打印机（lpr）假脱机 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">517/udp </td>
+								<td height="28" bgcolor="#F4FBF3">talk </td>
+								<td height="28" bgcolor="#E9F8E7">远程对话服务和客户 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">518/udp </td>
+								<td height="28" bgcolor="#F4FBF3">ntalk </td>
+								<td height="28" bgcolor="#E9F8E7">网络交谈（ntalk），远程对话服务和客户 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">519 </td>
+								<td height="28" bgcolor="#F4FBF3">utime [unixtime] </td>
+								<td height="28" bgcolor="#E9F8E7">UNIX 时间协议（utime） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">520/tcp </td>
+								<td height="28" bgcolor="#F4FBF3">efs </td>
+								<td height="28" bgcolor="#E9F8E7">扩展文件名服务器（EFS） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">520/udp </td>
+								<td height="28" bgcolor="#F4FBF3">router [route, routed] </td>
+								<td height="28" bgcolor="#E9F8E7">选路信息协议（RIP） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">521 </td>
+								<td height="28" bgcolor="#F4FBF3">ripng </td>
+								<td height="28" bgcolor="#E9F8E7">用于互联网协议版本6（IPv6）的选路信息协议 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">525 </td>
+								<td height="28" bgcolor="#F4FBF3">timed [timeserver] </td>
+								<td height="28" bgcolor="#E9F8E7">时间守护进程（timed） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">526/tcp </td>
+								<td height="28" bgcolor="#F4FBF3">tempo [newdate] </td>
+								<td height="28" bgcolor="#E9F8E7">Tempo </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">530/tcp </td>
+								<td height="28" bgcolor="#F4FBF3">courier [rpc] </td>
+								<td height="28" bgcolor="#E9F8E7">Courier 远程过程调用（RPC）协议 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">531/tcp </td>
+								<td height="28" bgcolor="#F4FBF3">conference [chat] </td>
+								<td height="28" bgcolor="#E9F8E7">互联网中继聊天 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">532 </td>
+								<td height="28" bgcolor="#F4FBF3">netnews </td>
+								<td height="28" bgcolor="#E9F8E7">Netnews </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">533/udp </td>
+								<td height="28" bgcolor="#F4FBF3">netwall </td>
+								<td height="28" bgcolor="#E9F8E7">用于紧急广播的 Netwall </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">540/tcp </td>
+								<td height="28" bgcolor="#F4FBF3">uucp [uucpd] </td>
+								<td height="28" bgcolor="#E9F8E7">Unix 到 Unix 复制服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">543/tcp </td>
+								<td height="28" bgcolor="#F4FBF3">klogin </td>
+								<td height="28" bgcolor="#E9F8E7">Kerberos 版本5（v5）远程登录 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">544/tcp </td>
+								<td height="28" bgcolor="#F4FBF3">kshell </td>
+								<td height="28" bgcolor="#E9F8E7">Kerberos 版本5（v5）远程 shell </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">548 </td>
+								<td height="28" bgcolor="#F4FBF3">afpovertcp </td>
+								<td height="28" bgcolor="#E9F8E7">通过传输控制协议（TCP）的 Appletalk 文件编制协议（AFP） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">556 </td>
+								<td height="28" bgcolor="#F4FBF3">remotefs [rfs_server, rfs] </td>
+								<td height="28" bgcolor="#E9F8E7">Brunhoff 的远程文件系统（RFS） </td>
+							</tr>
+						</table>
+					</div>
+					<a name="reg_"></a>
+		
+					<!--中间广告位-->
+					<div align="center">
+						<script language="JavaScript">
+							DynamicShowAd("950_X");
+						</script>
+					</div>
+					
+					<div class="w960 whitebody center">
+						<h2>注册的端口</h2>
+						<p>列举了由网络和软件社区向 IANA 提交的要在端口号码列表中正式注册的端口。</p>
+						<table border="0" cellpadding="2" cellspacing="1" bgcolor="#E1E1E1" width="100%">
+							<tr>
+								<th height="28" bgcolor="#E9F8E7">端口号码 / 层</th>
+								<th height="28" bgcolor="#F4FBF3">名称</th>
+								<th height="28" bgcolor="#E9F8E7">注释</th>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">1080 </td>
+								<td height="28" bgcolor="#F4FBF3">socks </td>
+								<td height="28" bgcolor="#E9F8E7">SOCKS 网络应用程序代理服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">1236 </td>
+								<td height="28" bgcolor="#F4FBF3">bvcontrol [rmtcfg] </td>
+								<td height="28" bgcolor="#E9F8E7">Garcilis Packeten 远程配置服务器</td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">1300 </td>
+								<td height="28" bgcolor="#F4FBF3">h323hostcallsc </td>
+								<td height="28" bgcolor="#E9F8E7">H.323 电话会议主机电话安全 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">1433 </td>
+								<td height="28" bgcolor="#F4FBF3">ms-sql-s </td>
+								<td height="28" bgcolor="#E9F8E7">Microsoft SQL 服务器 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">1434 </td>
+								<td height="28" bgcolor="#F4FBF3">ms-sql-m </td>
+								<td height="28" bgcolor="#E9F8E7">Microsoft SQL 监视器 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">1494 </td>
+								<td height="28" bgcolor="#F4FBF3">ica </td>
+								<td height="28" bgcolor="#E9F8E7">Citrix ICA 客户 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">1512 </td>
+								<td height="28" bgcolor="#F4FBF3">wins </td>
+								<td height="28" bgcolor="#E9F8E7">Microsoft Windows 互联网名称服务器 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">1524 </td>
+								<td height="28" bgcolor="#F4FBF3">ingreslock </td>
+								<td height="28" bgcolor="#E9F8E7">Ingres 数据库管理系统（DBMS）锁定服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">1525 </td>
+								<td height="28" bgcolor="#F4FBF3">prospero-np </td>
+								<td height="28" bgcolor="#E9F8E7">无特权的 Prospero </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">1645 </td>
+								<td height="28" bgcolor="#F4FBF3">datametrics [old-radius] </td>
+								<td height="28" bgcolor="#E9F8E7">Datametrics / 从前的 radius 项目 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">1646 </td>
+								<td height="28" bgcolor="#F4FBF3">sa-msg-port [oldradacct] </td>
+								<td height="28" bgcolor="#E9F8E7">sa-msg-port / 从前的 radacct 项目 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">1649 </td>
+								<td height="28" bgcolor="#F4FBF3">kermit </td>
+								<td height="28" bgcolor="#E9F8E7">Kermit 文件传输和管理服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">1701 </td>
+								<td height="28" bgcolor="#F4FBF3">l2tp [l2f] </td>
+								<td height="28" bgcolor="#E9F8E7">第2层隧道服务（LT2P） / 第2层转发（L2F） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">1718 </td>
+								<td height="28" bgcolor="#F4FBF3">h323gatedisc </td>
+								<td height="28" bgcolor="#E9F8E7">H.323 电讯守门装置发现机制 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">1719 </td>
+								<td height="28" bgcolor="#F4FBF3">h323gatestat </td>
+								<td height="28" bgcolor="#E9F8E7">H.323 电讯守门装置状态 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">1720 </td>
+								<td height="28" bgcolor="#F4FBF3">h323hostcall </td>
+								<td height="28" bgcolor="#E9F8E7">H.323 电讯主持电话设置 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">1758 </td>
+								<td height="28" bgcolor="#F4FBF3">tftp-mcast </td>
+								<td height="28" bgcolor="#E9F8E7">小文件 FTP 组播 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">1759 </td>
+								<td height="28" bgcolor="#F4FBF3">mtftp </td>
+								<td height="28" bgcolor="#E9F8E7">组播小文件 FTP（MTFTP） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">1789 </td>
+								<td height="28" bgcolor="#F4FBF3">hello </td>
+								<td height="28" bgcolor="#E9F8E7">Hello 路由器通信端口 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">1812 </td>
+								<td height="28" bgcolor="#F4FBF3">radius </td>
+								<td height="28" bgcolor="#E9F8E7">Radius 拨号验证和记帐服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">1813 </td>
+								<td height="28" bgcolor="#F4FBF3">radius-acct </td>
+								<td height="28" bgcolor="#E9F8E7">Radius 记帐 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">1911 </td>
+								<td height="28" bgcolor="#F4FBF3">mtp </td>
+								<td height="28" bgcolor="#E9F8E7">Starlight 网络多媒体传输协议（MTP） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">1985 </td>
+								<td height="28" bgcolor="#F4FBF3">hsrp </td>
+								<td height="28" bgcolor="#E9F8E7">Cisco 热备用路由器协议 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">1986 </td>
+								<td height="28" bgcolor="#F4FBF3">licensedaemon </td>
+								<td height="28" bgcolor="#E9F8E7">Cisco 许可管理守护进程 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">1997 </td>
+								<td height="28" bgcolor="#F4FBF3">gdp-port </td>
+								<td height="28" bgcolor="#E9F8E7">Cisco 网关发现协议（GDP） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">2049 </td>
+								<td height="28" bgcolor="#F4FBF3">nfs [nfsd] </td>
+								<td height="28" bgcolor="#E9F8E7">网络文件系统（NFS） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">2102 </td>
+								<td height="28" bgcolor="#F4FBF3">zephyr-srv </td>
+								<td height="28" bgcolor="#E9F8E7">Zephyr 通知传输和发送服务器 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">2103 </td>
+								<td height="28" bgcolor="#F4FBF3">zephyr-clt </td>
+								<td height="28" bgcolor="#E9F8E7">Zephyr serv-hm 连接 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">2104 </td>
+								<td height="28" bgcolor="#F4FBF3">zephyr-hm </td>
+								<td height="28" bgcolor="#E9F8E7">Zephyr 主机管理器 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">2401 </td>
+								<td height="28" bgcolor="#F4FBF3">cvspserver </td>
+								<td height="28" bgcolor="#E9F8E7">并行版本系统（CVS）客户 / 服务器操作 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">2430/tcp </td>
+								<td height="28" bgcolor="#F4FBF3">venus </td>
+								<td height="28" bgcolor="#E9F8E7">用于 Coda 文件系统（codacon 端口）的 Venus 缓存管理器 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">2430/udp </td>
+								<td height="28" bgcolor="#F4FBF3">venus </td>
+								<td height="28" bgcolor="#E9F8E7">用于 Coda 文件系统（callback/wbc interface 界面）的 Venus 缓存管理器 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">2431/tcp </td>
+								<td height="28" bgcolor="#F4FBF3">venus-se </td>
+								<td height="28" bgcolor="#E9F8E7">Venus 传输控制协议（TCP）的副作用 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">2431/udp </td>
+								<td height="28" bgcolor="#F4FBF3">venus-se </td>
+								<td height="28" bgcolor="#E9F8E7">Venus 用户数据报协议（UDP）的副作用 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">2432/udp </td>
+								<td height="28" bgcolor="#F4FBF3">codasrv </td>
+								<td height="28" bgcolor="#E9F8E7">Coda 文件系统服务器端口 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">2433/tcp </td>
+								<td height="28" bgcolor="#F4FBF3">codasrv-se </td>
+								<td height="28" bgcolor="#E9F8E7">Coda 文件系统 TCP 副作用 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">2433/udp </td>
+								<td height="28" bgcolor="#F4FBF3">codasrv-se </td>
+								<td height="28" bgcolor="#E9F8E7">Coda 文件系统 UDP SFTP 副作用 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">2600 </td>
+								<td height="28" bgcolor="#F4FBF3">hpstgmgr [zebrasrv] </td>
+								<td height="28" bgcolor="#E9F8E7">HPSTGMGR；Zebra 选路</td>
+							</tr>
+							<tr>
+								<td colspan="3" align="center">
+									<!--中间广告位-->
+									<div align="center">
+										<script language="JavaScript">
+											DynamicShowAd("950_X");
+										</script>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">2601 </td>
+								<td height="28" bgcolor="#F4FBF3">discp-client [zebra] </td>
+								<td height="28" bgcolor="#E9F8E7">discp 客户；Zebra 集成的 shell </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">2602 </td>
+								<td height="28" bgcolor="#F4FBF3">discp-server [ripd] </td>
+								<td height="28" bgcolor="#E9F8E7">discp 服务器；选路信息协议守护进程（ripd） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">2603 </td>
+								<td height="28" bgcolor="#F4FBF3">servicemeter [ripngd] </td>
+								<td height="28" bgcolor="#E9F8E7">服务计量；用于 IPv6 的 RIP 守护进程 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">2604 </td>
+								<td height="28" bgcolor="#F4FBF3">nsc-ccs [ospfd] </td>
+								<td height="28" bgcolor="#E9F8E7">NSC CCS；开放式短路径优先守护进程（ospfd） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">2605 </td>
+								<td height="28" bgcolor="#F4FBF3">nsc-posa </td>
+								<td height="28" bgcolor="#E9F8E7">NSC POSA；边界网络协议守护进程（bgpd） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">2606 </td>
+								<td height="28" bgcolor="#F4FBF3">netmon [ospf6d] </td>
+								<td height="28" bgcolor="#E9F8E7">Dell Netmon；用于 IPv6 的 OSPF 守护进程（ospf6d） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">2809 </td>
+								<td height="28" bgcolor="#F4FBF3">corbaloc </td>
+								<td height="28" bgcolor="#E9F8E7">公共对象请求代理体系（CORBA）命名服务定位器 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">3130 </td>
+								<td height="28" bgcolor="#F4FBF3">icpv2 </td>
+								<td height="28" bgcolor="#E9F8E7">互联网缓存协议版本2（v2）；被 Squid 代理缓存服务器使用 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">3306 </td>
+								<td height="28" bgcolor="#F4FBF3">mysql </td>
+								<td height="28" bgcolor="#E9F8E7">MySQL 数据库服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">3346 </td>
+								<td height="28" bgcolor="#F4FBF3">trnsprntproxy </td>
+								<td height="28" bgcolor="#E9F8E7">Trnsprnt 代理 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">4011 </td>
+								<td height="28" bgcolor="#F4FBF3">pxe </td>
+								<td height="28" bgcolor="#E9F8E7">执行前环境（PXE）服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">4321 </td>
+								<td height="28" bgcolor="#F4FBF3">rwhois </td>
+								<td height="28" bgcolor="#E9F8E7">远程 Whois（rwhois）服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">4444 </td>
+								<td height="28" bgcolor="#F4FBF3">krb524 </td>
+								<td height="28" bgcolor="#E9F8E7">Kerberos 版本5（v5）到版本4（v4）门票转换器 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">5002 </td>
+								<td height="28" bgcolor="#F4FBF3">rfe </td>
+								<td height="28" bgcolor="#E9F8E7">无射频以太网（RFE）音频广播系统 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">5308 </td>
+								<td height="28" bgcolor="#F4FBF3">cfengine </td>
+								<td height="28" bgcolor="#E9F8E7">配置引擎（Cfengine） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">5999 </td>
+								<td height="28" bgcolor="#F4FBF3">cvsup [CVSup] </td>
+								<td height="28" bgcolor="#E9F8E7">CVSup 文件传输和更新工具 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">6000 </td>
+								<td height="28" bgcolor="#F4FBF3">x11 [X] </td>
+								<td height="28" bgcolor="#E9F8E7">X 窗口系统服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">7000 </td>
+								<td height="28" bgcolor="#F4FBF3">afs3-fileserver </td>
+								<td height="28" bgcolor="#E9F8E7">Andrew 文件系统（AFS）文件服务器 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">7001 </td>
+								<td height="28" bgcolor="#F4FBF3">afs3-callback </td>
+								<td height="28" bgcolor="#E9F8E7">用于给缓存管理器回电的 AFS 端口 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">7002 </td>
+								<td height="28" bgcolor="#F4FBF3">afs3-prserver </td>
+								<td height="28" bgcolor="#E9F8E7">AFS 用户和组群数据库 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">7003 </td>
+								<td height="28" bgcolor="#F4FBF3">afs3-vlserver </td>
+								<td height="28" bgcolor="#E9F8E7">AFS 文件卷位置数据库 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">7004 </td>
+								<td height="28" bgcolor="#F4FBF3">afs3-kaserver </td>
+								<td height="28" bgcolor="#E9F8E7">AFS Kerberos 验证服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">7005 </td>
+								<td height="28" bgcolor="#F4FBF3">afs3-volser </td>
+								<td height="28" bgcolor="#E9F8E7">AFS 文件卷管理服务器 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">7006 </td>
+								<td height="28" bgcolor="#F4FBF3">afs3-errors </td>
+								<td height="28" bgcolor="#E9F8E7">AFS 错误解释服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">7007 </td>
+								<td height="28" bgcolor="#F4FBF3">afs3-bos </td>
+								<td height="28" bgcolor="#E9F8E7">AFS 基本监查进程 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">7008 </td>
+								<td height="28" bgcolor="#F4FBF3">afs3-update </td>
+								<td height="28" bgcolor="#E9F8E7">AFS 服务器到服务器更新器 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">7009 </td>
+								<td height="28" bgcolor="#F4FBF3">afs3-rmtsys </td>
+								<td height="28" bgcolor="#E9F8E7">AFS 远程缓存管理器服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">9876 </td>
+								<td height="28" bgcolor="#F4FBF3">sd </td>
+								<td height="28" bgcolor="#E9F8E7">会话指引器 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">10080 </td>
+								<td height="28" bgcolor="#F4FBF3">amanda </td>
+								<td height="28" bgcolor="#E9F8E7">高级 Maryland 自动网络磁盘归档器（Amanda）备份服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">11371 </td>
+								<td height="28" bgcolor="#F4FBF3">pgpkeyserver </td>
+								<td height="28" bgcolor="#E9F8E7">良好隐私（PGP） / GNU 隐私卫士（GPG）公钥服务器 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">11720 </td>
+								<td height="28" bgcolor="#F4FBF3">h323callsigalt </td>
+								<td height="28" bgcolor="#E9F8E7">H.323 调用信号交替 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">13720 </td>
+								<td height="28" bgcolor="#F4FBF3">bprd </td>
+								<td height="28" bgcolor="#E9F8E7">Veritas NetBackup 请求守护进程（bprd） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">13721 </td>
+								<td height="28" bgcolor="#F4FBF3">bpdbm </td>
+								<td height="28" bgcolor="#E9F8E7">Veritas NetBackup 数据库管理器（bpdbm） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">13722 </td>
+								<td height="28" bgcolor="#F4FBF3">bpjava-msvc </td>
+								<td height="28" bgcolor="#E9F8E7">Veritas NetBackup Java / Microsoft Visual C++ (MSVC) 协议 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">13724 </td>
+								<td height="28" bgcolor="#F4FBF3">vnetd </td>
+								<td height="28" bgcolor="#E9F8E7">Veritas 网络工具 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">13782 </td>
+								<td height="28" bgcolor="#F4FBF3">bpcd </td>
+								<td height="28" bgcolor="#E9F8E7">Vertias NetBackup </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">13783 </td>
+								<td height="28" bgcolor="#F4FBF3">vopied </td>
+								<td height="28" bgcolor="#E9F8E7">Veritas VOPIED 协议 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">22273 </td>
+								<td height="28" bgcolor="#F4FBF3">wnn6 [wnn4] </td>
+								<td height="28" bgcolor="#E9F8E7">假名/汉字转换系统</td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">26000 </td>
+								<td height="28" bgcolor="#F4FBF3">quake </td>
+								<td height="28" bgcolor="#E9F8E7">Quake（以及相关的）多人游戏服务器 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">26208 </td>
+								<td height="28" bgcolor="#F4FBF3">wnn6-ds </td>
+								<td height="28" bgcolor="#E9F8E7">&nbsp;</td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">33434 </td>
+								<td height="28" bgcolor="#F4FBF3">traceroute </td>
+								<td height="28" bgcolor="#E9F8E7">Traceroute 网络跟踪工具 </td>
+							</tr>
+							<tr>
+								<td colspan="3" bgcolor="#F4FBF3">注:/etc/services中的注释如下：端口1236被注册为“bvcontrol”，但是它也被 Gracilis Packeten 远程配置服务器使用。正式名称被列为主要名称，未注册的名称被列为别名。
+									<br />在/etc/services中的注释：端口 2600 到 2606 被 zebra 软件包未经注册而使用。主要名称是被注册的名称，被 zebra 使用的未注册名称被列为别名。
+									<br />/etc/services 文件中的注释：该端口被注册为 wnn6，但是还在 FreeWnn 软件包中使用了未注册的“wnn4”。<br /></td>
+							</tr>
+						</table>
+					</div>
+					<a name="data_"></a>
+		
+					<!--中间广告位-->
+					<div align="center">
+						<script language="JavaScript">
+							DynamicShowAd("950_X");
+						</script>
+					</div>
+					
+					<div class="w960 whitebody center">
+						<h2>数据报传递协议端口</h2>
+						<p>显示了一个和数据报传递协议（DDP）有关的端口列表。DDP 在 AppleTalk 网络上被使用。</p>
+						<table border="0" cellpadding="2" cellspacing="1" bgcolor="#E1E1E1" width="100%">
+							<tr>
+								<th height="28" bgcolor="#E9F8E7">端口号码 / 层</th>
+								<th height="28" bgcolor="#F4FBF3">名称</th>
+								<th height="28" bgcolor="#E9F8E7">注释</th>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">1/ddp </td>
+								<td height="28" bgcolor="#F4FBF3">rtmp </td>
+								<td height="28" bgcolor="#E9F8E7">路由表管理协议 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">2/ddp </td>
+								<td height="28" bgcolor="#F4FBF3">nbp </td>
+								<td height="28" bgcolor="#E9F8E7">名称绑定协议 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">4/ddp </td>
+								<td height="28" bgcolor="#F4FBF3">echo </td>
+								<td height="28" bgcolor="#E9F8E7">AppleTalk Echo 协议 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">6/ddp </td>
+								<td height="28" bgcolor="#F4FBF3">zip </td>
+								<td height="28" bgcolor="#E9F8E7">区块信息协议 </td>
+							</tr>
+						</table>
+					</div>
+					<a name="ker_"></a>
+		
+					<!--中间广告位-->
+					<div align="center">
+						<script language="JavaScript">
+							DynamicShowAd("950_X");
+						</script>
+					</div>
+					
+					<div class="w960 whitebody center">
+						<h2>Kerberos（工程 Athena/MIT）端口</h2>
+						<p>和 Kerberos 网络验证协议相关的端口列表。在标记的地方，v5 代表 Kerberos 版本5协议。注意，这些端口没有在 IANA 注册。</p>
+						<table border="0" cellpadding="2" cellspacing="1" bgcolor="#E1E1E1" width="100%">
+							<tr>
+								<th height="28" bgcolor="#E9F8E7">端口号码 / 层</th>
+								<th height="28" bgcolor="#F4FBF3">名称</th>
+								<th height="28" bgcolor="#E9F8E7">注释</th>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">751 </td>
+								<td height="28" bgcolor="#F4FBF3">kerberos_master </td>
+								<td height="28" bgcolor="#E9F8E7">Kerberos 验证 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">752 </td>
+								<td height="28" bgcolor="#F4FBF3">passwd_server </td>
+								<td height="28" bgcolor="#E9F8E7">Kerberos 口令（kpasswd）服务器 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">754 </td>
+								<td height="28" bgcolor="#F4FBF3">krb5_prop </td>
+								<td height="28" bgcolor="#E9F8E7">Kerberos v5 从属传播 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">760 </td>
+								<td height="28" bgcolor="#F4FBF3">krbupdate [kreg] </td>
+								<td height="28" bgcolor="#E9F8E7">Kerberos 注册 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">1109 </td>
+								<td height="28" bgcolor="#F4FBF3">kpop </td>
+								<td height="28" bgcolor="#E9F8E7">Kerberos 邮局协议（KPOP） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">2053 </td>
+								<td height="28" bgcolor="#F4FBF3">knetd </td>
+								<td height="28" bgcolor="#E9F8E7">Kerberos 多路分用器 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">2105 </td>
+								<td height="28" bgcolor="#F4FBF3">eklogin </td>
+								<td height="28" bgcolor="#E9F8E7">Kerberos v5 加密的远程登录（rlogin） </td>
+							</tr>
+						</table>
+					</div>
+					<a name="unreg_"></a>
+		
+					<!--中间广告位-->
+					<div align="center">
+						<script language="JavaScript">
+							DynamicShowAd("950_X");
+						</script>
+					</div>
+					
+					<div class="w960 whitebody center">
+						<h2>未注册的端口</h2>
+						<p>一个未注册的端口列表。这些端口可能被安装在你的红帽企业 Linux 系统上的服务或协议使用，或者它们是在红帽企业 Linux 和运行其它操作系统的机器通信所必需的端口。</p>
+						<table border="0" cellpadding="2" cellspacing="1" bgcolor="#E1E1E1" width="100%">
+							<tr>
+								<th height="28" bgcolor="#E9F8E7">端口号码 / 层</th>
+								<th height="28" bgcolor="#F4FBF3">名称</th>
+								<th height="28" bgcolor="#E9F8E7">注释</th>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">15/tcp </td>
+								<td height="28" bgcolor="#F4FBF3">netstat </td>
+								<td height="28" bgcolor="#E9F8E7">网络状态（netstat） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">98/tcp </td>
+								<td height="28" bgcolor="#F4FBF3">linuxconf </td>
+								<td height="28" bgcolor="#E9F8E7">Linuxconf Linux 管理工具 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">106 </td>
+								<td height="28" bgcolor="#F4FBF3">poppassd </td>
+								<td height="28" bgcolor="#E9F8E7">邮局协议口令改变守护进程（POPPASSD） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">465/tcp </td>
+								<td height="28" bgcolor="#F4FBF3">smtps </td>
+								<td height="28" bgcolor="#E9F8E7">通过安全套接字层的简单邮件传输协议（SMTPS） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">616/tcp </td>
+								<td height="28" bgcolor="#F4FBF3">gii </td>
+								<td height="28" bgcolor="#E9F8E7">使用网关的（选路守护进程）互动界面 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">808 </td>
+								<td height="28" bgcolor="#F4FBF3">omirr [omirrd] </td>
+								<td height="28" bgcolor="#E9F8E7">联机镜像（Omirr）文件镜像服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">871/tcp </td>
+								<td height="28" bgcolor="#F4FBF3">supfileserv </td>
+								<td height="28" bgcolor="#E9F8E7">软件升级协议（SUP）服务器 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">901/tcp </td>
+								<td height="28" bgcolor="#F4FBF3">swat </td>
+								<td height="28" bgcolor="#E9F8E7">Samba 万维网管理工具（SWAT） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">953 </td>
+								<td height="28" bgcolor="#F4FBF3">rndc </td>
+								<td height="28" bgcolor="#E9F8E7">Berkeley 互联网名称域版本9（BIND 9）远程名称守护进程配置工具 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">1127 </td>
+								<td height="28" bgcolor="#F4FBF3">sufiledbg </td>
+								<td height="28" bgcolor="#E9F8E7">软件升级协议（SUP）调试 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">1178/tcp </td>
+								<td height="28" bgcolor="#F4FBF3">skkserv </td>
+								<td height="28" bgcolor="#E9F8E7">简单假名到汉字（SKK）日文输入服务器 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">1313/tcp </td>
+								<td height="28" bgcolor="#F4FBF3">xtel </td>
+								<td height="28" bgcolor="#E9F8E7">法国 Minitel 文本信息系统 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">1529/tcp </td>
+								<td height="28" bgcolor="#F4FBF3">support [prmsd, gnatsd] </td>
+								<td height="28" bgcolor="#E9F8E7">GNATS 错误跟踪系统 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">2003/tcp </td>
+								<td height="28" bgcolor="#F4FBF3">cfinger </td>
+								<td height="28" bgcolor="#E9F8E7">GNU Finger 服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">2150 </td>
+								<td height="28" bgcolor="#F4FBF3">ninstall </td>
+								<td height="28" bgcolor="#E9F8E7">网络安装服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">2988 </td>
+								<td height="28" bgcolor="#F4FBF3">afbackup </td>
+								<td height="28" bgcolor="#E9F8E7">afbackup 客户-服务器备份系统 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">3128/tcp </td>
+								<td height="28" bgcolor="#F4FBF3">squid </td>
+								<td height="28" bgcolor="#E9F8E7">Squid 万维网代理缓存 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">3455 </td>
+								<td height="28" bgcolor="#F4FBF3">prsvp </td>
+								<td height="28" bgcolor="#E9F8E7">RSVP 端口 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">5432 </td>
+								<td height="28" bgcolor="#F4FBF3">postgres </td>
+								<td height="28" bgcolor="#E9F8E7">PostgreSQL 数据库 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">4557/tcp </td>
+								<td height="28" bgcolor="#F4FBF3">fax </td>
+								<td height="28" bgcolor="#E9F8E7">FAX 传输服务（旧服务） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">4559/tcp </td>
+								<td height="28" bgcolor="#F4FBF3">hylafax </td>
+								<td height="28" bgcolor="#E9F8E7">HylaFAX 客户-服务器协议（新服务） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">5232 </td>
+								<td height="28" bgcolor="#F4FBF3">sgi-dgl </td>
+								<td height="28" bgcolor="#E9F8E7">SGI 分布式图形库 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">5354 </td>
+								<td height="28" bgcolor="#F4FBF3">noclog </td>
+								<td height="28" bgcolor="#E9F8E7">NOCOL 网络操作中心记录守护进程（noclogd） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">5355 </td>
+								<td height="28" bgcolor="#F4FBF3">hostmon </td>
+								<td height="28" bgcolor="#E9F8E7">NOCOL 网络操作中心主机监视 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">5680/tcp </td>
+								<td height="28" bgcolor="#F4FBF3">canna </td>
+								<td height="28" bgcolor="#E9F8E7">Canna 日文字符输入界面 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">6010/tcp </td>
+								<td height="28" bgcolor="#F4FBF3">x11-ssh-offset </td>
+								<td height="28" bgcolor="#E9F8E7">安全 Shell（SSH）X11 转发偏移 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">6667 </td>
+								<td height="28" bgcolor="#F4FBF3">ircd </td>
+								<td height="28" bgcolor="#E9F8E7">互联网中继聊天守护进程（ircd） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">7100/tcp </td>
+								<td height="28" bgcolor="#F4FBF3">xfs </td>
+								<td height="28" bgcolor="#E9F8E7">X 字体服务器（XFS） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">7666/tcp </td>
+								<td height="28" bgcolor="#F4FBF3">tircproxy </td>
+								<td height="28" bgcolor="#E9F8E7">Tircproxy IRC 代理服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">8008 </td>
+								<td height="28" bgcolor="#F4FBF3">http-alt </td>
+								<td height="28" bgcolor="#E9F8E7">超文本传输协议（HTTP）的另一选择 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">8080 </td>
+								<td height="28" bgcolor="#F4FBF3">webcache </td>
+								<td height="28" bgcolor="#E9F8E7">万维网（WWW）缓存服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">8081 </td>
+								<td height="28" bgcolor="#F4FBF3">tproxy </td>
+								<td height="28" bgcolor="#E9F8E7">透明代理 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">9100/tcp </td>
+								<td height="28" bgcolor="#F4FBF3">jetdirect [laserjet, hplj] </td>
+								<td height="28" bgcolor="#E9F8E7">Hewlett-Packard (HP) JetDirect 网络打印服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">9359 </td>
+								<td height="28" bgcolor="#F4FBF3">mandelspawn [mandelbrot] </td>
+								<td height="28" bgcolor="#E9F8E7">用于 X 窗口系统的并行 Mandelbrot 生成程序 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">10081 </td>
+								<td height="28" bgcolor="#F4FBF3">kamanda </td>
+								<td height="28" bgcolor="#E9F8E7">使用 Kerberos 的 Amanda 备份服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">10082/tcp </td>
+								<td height="28" bgcolor="#F4FBF3">amandaidx </td>
+								<td height="28" bgcolor="#E9F8E7">Amanda 备份服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">10083/tcp </td>
+								<td height="28" bgcolor="#F4FBF3">amidxtape </td>
+								<td height="28" bgcolor="#E9F8E7">Amanda 备份服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">20011 </td>
+								<td height="28" bgcolor="#F4FBF3">isdnlog </td>
+								<td height="28" bgcolor="#E9F8E7">综合业务数字网（ISDN）登录系统 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">20012 </td>
+								<td height="28" bgcolor="#F4FBF3">vboxd </td>
+								<td height="28" bgcolor="#E9F8E7">ISDN 音箱守护进程（vboxd） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">22305/tcp </td>
+								<td height="28" bgcolor="#F4FBF3">wnn4_Kr </td>
+								<td height="28" bgcolor="#E9F8E7">kWnn 韩文输入系统 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">22289/tcp </td>
+								<td height="28" bgcolor="#F4FBF3">wnn4_Cn </td>
+								<td height="28" bgcolor="#E9F8E7">cWnn 中文输入系统 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">22321/tcp </td>
+								<td height="28" bgcolor="#F4FBF3">wnn4_Tw </td>
+								<td height="28" bgcolor="#E9F8E7">tWnn 中文输入系统（台湾） </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">24554 </td>
+								<td height="28" bgcolor="#F4FBF3">binkp </td>
+								<td height="28" bgcolor="#E9F8E7">Binkley TCP/IP Fidonet 邮寄程序守护进程 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">27374 </td>
+								<td height="28" bgcolor="#F4FBF3">asp </td>
+								<td height="28" bgcolor="#E9F8E7">地址搜索协议 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">60177 </td>
+								<td height="28" bgcolor="#F4FBF3">tfido </td>
+								<td height="28" bgcolor="#E9F8E7">Ifmail FidoNet 兼容邮寄服务 </td>
+							</tr>
+							<tr>
+								<td height="28" bgcolor="#E9F8E7">60179 </td>
+								<td height="28" bgcolor="#F4FBF3">fido </td>
+								<td height="28" bgcolor="#E9F8E7">FidoNet 电子邮件和新闻网络 </td>
+							</tr>
+						</table>
+					</div>
+					
+				</div>
+			</div>
+			
+			<!--footer-->
+			<div class="footer">
+				<div class="copyrith container-fluid text-center">
+					<p> 
+						<span>Copyright&nbsp;©&nbsp;</span>
+						<a href="http://zhoujiahua.cn">JiaHua</a>
+						<span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+						<a href="http://www.miitbeian.gov.cn">陕ICP备17017059号-1</a>
+					</p>
+				</div>
+			</div>
+		
+		</div>
+	</body>
+</html>

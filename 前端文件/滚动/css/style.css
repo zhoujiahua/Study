@@ -1,0 +1,33 @@
+/**
+ * @样式
+ * @JiaHua
+ * @V 1.0.0
+ * *********/
+.jh-listc{
+	padding: 100px 0;
+}
+.jh-listcon{
+	padding: 50px 0;
+}
+.list_lh{
+	height: 300px;
+	width: 500px;
+	border: 1px solid pink;
+	overflow: hidden;
+}
+.list-ul>li{
+	height: 50px;
+	font: 600 16px/50px "";
+}
+
+.lieven{
+	background-color: pink;
+}
+/************************/
+.jh-btn button{
+	width: 100px;
+	height: 30px;
+	background-color: blue;
+	color: #FFFFFF;
+	font: 600 16px/20px "";
+}

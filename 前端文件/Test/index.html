@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			.t-ul .t-li {
+				width: 200px;
+				cursor: pointer;
+				border: 1px solid blue;
+			}
+			
+			.active {
+				background-color: orange;
+			}
+		</style>
+		<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+	</head>
+
+	<body>
+		<ul class="t-ul">
+			<li class="t-li tl-1 active">1</li>
+			<li class="t-li tl-2 ">2</li>
+			<li class="t-li tl-3">3</li>
+		</ul>
+	</body>
+
+	<script type="text/javascript">
+		$(document).ready(function(e) {
+			$(".t-li").click(function() {
+				var abc=$(this).index();
+				$(".t-li").eq($(this).index()).addClass("active").siblings().removeClass("active");
+//				alert(abc);
+//				$(location).attr('href', 'http://www.jb51.net');
+//				$(".tab-a").hide().eq($(this).index()).show();
+//				if(abc==0){
+//					$(location).attr('href', 'http://www.jb51.net');
+//				}
+//				if else(abc==1){
+//					$(location).attr('href', 'http://www.baidu.com');
+//					
+//				}
+//				if else(abc==2){
+//					$(location).attr('href', 'http://www.taobao.com');
+//					
+//				}
+				
+				
+			})
+			
+			/********************/
+			$(".tl-1").click(function() {
+				$(location).attr('href', 'http://www.jb51.net');
+				})
+			$(".tl-2").click(function() {
+				$(location).attr('href', 'http://www.baidu.com');
+				})
+			$(".tl-3").click(function() {
+				$(location).attr('href', 'http://www.taobao.com');
+				})
+			/********************/
+
+		});
+		
+		
+		
+		
+		
+	</script>
+
+</html>
