@@ -1,5 +1,5 @@
-# Good good study day day up!
+# Summary
 
-记录学习成长中的点点滴滴！
+Study and summary
 
 
